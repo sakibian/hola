@@ -5,3 +5,60 @@
  overflow: auto;
  padding: 0 40px;
 }
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+}
+.card {
+  background-color: transparent;
+  color: var(--dark-color);
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px;
+}
+/* Background colored buttons */
+
+.btn {
+  display: inline-block;
+  padding: 10px 30px;
+  cursor: pointer;
+  background-color: var(--primary-color);
+  color: var(--light-color);
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+  color: var(--light-color);
+  background-color: var(--primary-color);
+}
+
+.btn-outline-primary {
+  border: 1px solid var(--primary-color);
+  background-color: transparent;
+}
+
+.btn-outline-secondary {
+  border: 1px solid var(--secondary-color);
+  background-color: transparent;
+}
+
+.btn-outline-light {
+  border: 1px solid var(--light-color);
+  background-color: transparent;
+}

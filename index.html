@@ -7,34 +7,60 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
   <link rel="manifest" href="img/site.webmanifest">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
   <link rel="stylesheet" href="/css/utilities.css">
   <link rel="stylesheet" href="/css/style.css">
   <title>Hola | Welcome</title>
 </head>
 <body>
-  <nav>
-    <div class="container">
-      <a href="#index.html" class="brand-logo"><img src="img/brand-logo.png" alt="Company Logo"></a>
-      <div class="nav-left">
-        <ul class="ui-left">
-          <li><a href="#">Product</a></li>
-          <li><a href="#">Solution</a></li>
-          <li><a href="#">Dev Center</a></li>
-          <li><a href="#">Customer Service</a></li>
-        </ul>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container flex">
+      <ul class="ui-left">
+        <li><a href="#">Product</a></li>
+        <li><a href="#">Solution</a></li>
+        <li><a href="#">Dev Center</a></li>
+        <li><a href="#">Customer Service</a></li>
+      </ul>
+      <div class="nav-brand">
+        <a href="index.html" class="brand-logo"><img src="img/brand-logo.png" alt="Company Logo"></a>
       </div>
-      <div class="nav-right">
-        <ul class="ui-right">
-          <li><a href="#">Partner</a></li>
-          <li><a href="#">Talk to us</a></li>
-          <li><a href="#">Login</a></li>
-          <a id="get_started" href="">Get Started</a>
-        </ul>
-      </div>
+      <ul class="ui-right">
+        <li><a href="#">Partner</a></li>
+        <li><a href="#">Talk to us</a></li>
+        <li><a href="#">Login</a></li>
+        <a class="btn btn-primary" id="get_started" href="http://www.sakibian.com">Get Started</a>
+      </ul>
     </div>
   </nav>
+
+  <!-- Hero Section -->
   <section id="hero" class="hero">
-    <h1>Build it with passionate</h1>
+    <div class="container grid">
+      <div class="left">
+        <h1>Build it with Passionate</h1>
+        <h2><i class="fas fa-code fa-3x"></i></h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime voluptatibus inventore aliquid ad illo nam ipsa molestias quis, reiciendis asperiores, dolore sequi vero in. Numquam.</p>
+        <a class="btn btn-outline-light" href="http://www.sakibian.com" target="_blank">Sakibian</a>
+      </div>
+      <div class="right card">
+        <img src="img/stats.svg" alt="Hero Status">
+      </div>
+    </div>
   </section>
+
+  <!-- Showcase -->
+
+  <section class="showcase" id="showcase">
+    <div class="container grid">
+      <h1>What are we playing ?</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis quidem ipsum odit, tempora architecto totam, necessitatibus aut officia sequi iste harum dolor commodi ipsa autem debitis assumenda blanditiis quia asperiores.</p>
+      <div class="card">Card 1</div>
+      <div class="card">Card 2</div>
+      <div class="card">Card 3</div>
+      <div class="card">Card 4</div>
+    </div>
+  </section>
+
 </body>
 </html>
